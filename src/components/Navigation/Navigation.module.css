@@ -1,0 +1,50 @@
+.Navigation {
+  height: 100px;
+  background-color: #2a2a2a;
+  list-style-type: none;
+}
+.NavigationContent {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: inherit;
+}
+
+.NavigationItems {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (min-width: 500px) {
+  .Navigation {
+    height: 200px;
+  }
+
+  .NavigationContent {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: inherit;
+  }
+
+  .NavigationItem {
+    width: 100px;
+  }
+
+  .NavigationItem a {
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+  }
+
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    color: #40a4c8;
+  }
+}
