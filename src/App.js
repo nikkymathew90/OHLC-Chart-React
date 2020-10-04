@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     let routes = (
       <Switch>
-        <Route path="/" exact component={Home} />
         <Route path="/live-chart" component={LiveChart} />
+        <Route path="/" exact component={Home} />
       </Switch>
     );
 

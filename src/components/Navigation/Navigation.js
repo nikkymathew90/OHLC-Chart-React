@@ -8,10 +8,14 @@ const Navigation = props => {
       <div className={classes.NavigationContent}>
         <ul className={classes.NavigationItems}>
           <li className={classes.NavigationItem}>
-            <NavLink to="/">Home</NavLink>
+            <NavLink activeClassName={classes.active} to="/" exact>
+              Home
+            </NavLink>
           </li>
           <li className={classes.NavigationItem}>
-            <NavLink to="/live-chart">Live Chart</NavLink>
+            <NavLink activeClassName={classes.active} to="/live-chart" exact>
+              Live Chart
+            </NavLink>
           </li>
         </ul>
       </div>
