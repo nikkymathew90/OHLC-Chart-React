@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/OHLC-Chart-React/static/css/main.724c7d4f.chunk.css",
+    "main.js": "/OHLC-Chart-React/static/js/main.33464a98.chunk.js",
+    "main.js.map": "/OHLC-Chart-React/static/js/main.33464a98.chunk.js.map",
+    "runtime-main.js": "/OHLC-Chart-React/static/js/runtime-main.11950f0b.js",
+    "runtime-main.js.map": "/OHLC-Chart-React/static/js/runtime-main.11950f0b.js.map",
+    "static/js/2.23dad2d4.chunk.js": "/OHLC-Chart-React/static/js/2.23dad2d4.chunk.js",
+    "static/js/2.23dad2d4.chunk.js.map": "/OHLC-Chart-React/static/js/2.23dad2d4.chunk.js.map",
+    "index.html": "/OHLC-Chart-React/index.html",
+    "precache-manifest.30356a0c3d7173d035f642f6ce674535.js": "/OHLC-Chart-React/precache-manifest.30356a0c3d7173d035f642f6ce674535.js",
+    "service-worker.js": "/OHLC-Chart-React/service-worker.js",
+    "static/css/main.724c7d4f.chunk.css.map": "/OHLC-Chart-React/static/css/main.724c7d4f.chunk.css.map",
+    "static/js/2.23dad2d4.chunk.js.LICENSE.txt": "/OHLC-Chart-React/static/js/2.23dad2d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11950f0b.js",
+    "static/js/2.23dad2d4.chunk.js",
+    "static/css/main.724c7d4f.chunk.css",
+    "static/js/main.33464a98.chunk.js"
+  ]
+}
