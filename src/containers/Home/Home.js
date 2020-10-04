@@ -23,8 +23,8 @@ class Home extends Component {
     layout: {
       dragmode: "zoom",
       autosize: true,
-      width: 800,
-      height: 500,
+      width: 900,
+      height: 600,
       margin: {
         r: 0,
         t: 100,
@@ -87,7 +87,7 @@ class Home extends Component {
     ) : (
       <Plot data={this.state.data} layout={this.state.layout} />
     );
-    return chart;
+    return <dic className={classes.container}>{chart}</dic>;
   }
 }
 

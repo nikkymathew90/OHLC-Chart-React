@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import io from "socket.io-client";
 import Plot from "react-plotly.js";
+import classes from "./LiveChart.module.css";
 
 const socket = io("http://kaboom.rksv.net/watch");
 //console.log("socket connection------>>", socket.connected);
@@ -26,12 +27,12 @@ class LiveChart extends Component {
       dragmode: "zoom",
       autosize: true,
       width: 800,
-      height: 500,
+      height: 600,
       margin: {
         r: 0,
         t: 100,
         b: 40,
-        l: 100
+        l: 0
       },
       showlegend: false,
       xaxis: {
@@ -95,7 +96,11 @@ class LiveChart extends Component {
   }
 
   render() {
-    return <Plot data={this.state.data} layout={this.state.layout} />;
+    return (
+      <div className={classes.container}>
+        <Plot data={this.state.data} layout={this.state.layout} />
+      </div>
+    );
   }
 }
 
