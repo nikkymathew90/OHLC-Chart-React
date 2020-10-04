@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OHLC-Chart-React/precache-manifest.30356a0c3d7173d035f642f6ce674535.js"
+  "/OHLC-Chart-React/precache-manifest.efa9c83c46c6470c74f0a2381967860f.js"
 );
 
 self.addEventListener('message', (event) => {

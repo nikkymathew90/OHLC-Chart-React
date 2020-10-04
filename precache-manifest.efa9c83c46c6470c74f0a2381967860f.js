@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64e44d601ea9daf5490fc9f335bb08c5",
+    "revision": "d429d71b470cdd9a3da8ad66f2d46e44",
     "url": "/OHLC-Chart-React/index.html"
   },
   {
-    "revision": "ca3935518ab5c287f9e4",
+    "revision": "38c8aff0523af258b7b7",
     "url": "/OHLC-Chart-React/static/css/main.724c7d4f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OHLC-Chart-React/static/js/2.23dad2d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca3935518ab5c287f9e4",
-    "url": "/OHLC-Chart-React/static/js/main.33464a98.chunk.js"
+    "revision": "38c8aff0523af258b7b7",
+    "url": "/OHLC-Chart-React/static/js/main.b9f1ae0a.chunk.js"
   },
   {
     "revision": "60ea372d74c02f8567a9",
